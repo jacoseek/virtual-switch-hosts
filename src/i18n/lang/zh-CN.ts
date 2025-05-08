@@ -1,0 +1,57 @@
+import { langType } from './base';
+
+const zh: langType = {
+  lang: {
+    'en-US': '英文',
+    'zh-CN': '简体中文',
+  },
+  tabbar: {
+    home: '首页',
+    setting: '设置',
+    info: '信息',
+  },
+  language: '语言',
+  theme: '主题',
+  theme_type: {
+    auto: '自动',
+    light: '浅色',
+    dark: '深色',
+  },
+  add: '新增',
+  hosts_type: 'Hosts 类型',
+  hosts_type_local: '本地',
+  hosts_type_remote: '远程',
+  hosts_name: 'Hosts 名称',
+  hosts_result: 'Hosts 结果',
+  file: '文件',
+  qr_code: '二维码',
+  required: '必填',
+  check: '检查',
+  empty: '暂无数据',
+  add_content_prompt: '嗨~ 请使用下面的按钮添加内容~',
+  result_pop_status: {
+    info: '信息',
+    success: '成功',
+    warning: '警告',
+    error: '错误',
+    question: '疑问',
+    empty: '空',
+  },
+  confirm: '确认',
+  submit: '提交',
+  save: '保存',
+  edit: '编辑',
+  copy: '复制',
+  delete: '删除',
+  search: '搜索',
+  list: '列表',
+  base: '基础',
+  advanced: '高级',
+  vpn_config: 'VPN 配置',
+  reset: '重置',
+  one_words_desc: '一款基于 Rust 开发的轻量级 hosts 代理工具，它允许用户在不获得 root 权限的情况下轻松切换 hosts 文件。',
+  issue: '问题反馈',
+  close: '关闭',
+};
+
+export default zh;

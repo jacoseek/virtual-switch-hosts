@@ -1,0 +1,51 @@
+{
+  "name": "virtual-switch-hosts",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "fmt": "cargo +nightly fmt --all"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "2.1.1",
+    "@tauri-apps/plugin-log": "~2",
+    "@tauri-apps/plugin-os": "~2",
+    "@tauri-apps/plugin-shell": "2.0.1",
+    "@tauri-apps/plugin-store": "~2",
+    "@varlet/ui": "^3.7.2",
+    "@varlet/use": "^3.7.3",
+    "@vueuse/core": "^12.0.0",
+    "pinia": "2.3.0",
+    "tauri-plugin-hosts": "link:./tauri-plugin-hosts/",
+    "vite-plugin-top-level-await": "^1.4.4",
+    "vue": "3.5.13",
+    "vue-i18n": "10.0.5",
+    "vue-router": "4.5.0"
+  },
+  "devDependencies": {
+    "@iconify/vue": "4.2.0",
+    "@tauri-apps/cli": "2.1.0",
+    "@types/node": "22.10.1",
+    "@varlet/import-resolver": "^3.7.2",
+    "@varlet/preset-tailwindcss": "^3.7.2",
+    "@vitejs/plugin-vue": "5.2.1",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.49",
+    "postcss-px-to-viewport": "1.1.1",
+    "sass": "1.82.0",
+    "tailwindcss": "3.4.16",
+    "typescript": "5.7.2",
+    "unplugin-auto-import": "0.18.6",
+    "unplugin-vue-components": "0.27.5",
+    "unplugin-vue-router": "^0.10.9",
+    "vite": "6.0.3",
+    "vite-plugin-vue-devtools": "7.6.7",
+    "vite-plugin-vue-layouts": "^0.11.0",
+    "vue-tsc": "2.1.10"
+  },
+  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
+}
